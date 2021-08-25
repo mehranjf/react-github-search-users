@@ -1,8 +1,17 @@
+import {Wrapper} from "./style";
+import loginImg from '../../assets/images/login-img.svg'
 const Login = () => {
     return(
-        <h1>
-            This is Login Page
-        </h1>
+        <Wrapper>
+            <div className="container">
+                <img src={loginImg} alt="Login images"/>
+                <h1>
+                    Login
+                </h1>
+                <button className="btn">Login</button>
+            </div>
+
+        </Wrapper>
     )
 }
 export default Login;
