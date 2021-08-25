@@ -1,6 +1,7 @@
 
 import Info from "./info";
 import User from "./user";
+import Report from "./report";
 
 const Dashboard = () => {
 
@@ -8,6 +9,7 @@ const Dashboard = () => {
         <>
             <Info></Info>
             <User></User>
+            <Report></Report>
         </>
     )
 }

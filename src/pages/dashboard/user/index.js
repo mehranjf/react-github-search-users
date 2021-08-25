@@ -3,8 +3,8 @@ import Card from "./card";
 import Followers from "./followers";
 const User = () => {
     return(
-        <section className="container section-center">
-            <Wrapper>
+        <section className="container">
+            <Wrapper className="section-center">
                 <Card></Card>
                 <Followers></Followers>
             </Wrapper>

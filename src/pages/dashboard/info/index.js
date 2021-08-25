@@ -11,28 +11,28 @@ const Info = () => {
         {
             id:1,
             name: "followers",
-            icon: <FiUser classname="icon"/> ,
+            icon: <FiUser className="icon"/> ,
             value:followers,
             color:"pink"
         },
         {
             id:2,
             name: "following",
-            icon: <FiUserPlus classname="icon"/> ,
+            icon: <FiUserPlus className="icon"/> ,
             value:following,
             color:"green"
         },
         {
             id:3,
             name: "public_gists",
-            icon: <GoGist classname="icon"/> ,
+            icon: <GoGist className="icon"/> ,
             value:public_gists,
             color:"purple"
         },
         {
             id:4,
             name: "public_repos",
-            icon: <GoRepo classname="icon"/> ,
+            icon: <GoRepo className="icon"/> ,
             value:public_repos,
             color:"yellow"
         }
